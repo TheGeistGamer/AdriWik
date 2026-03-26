@@ -1,8 +1,6 @@
 # 📚 Programming Wiki
 
-Repositorio personal que funciona como una wiki de programación, donde recopilo
-anotaciones, conceptos clave 
-y ejemplos práctivos sobre distintos lenguajes y tecnologías.
+Repositorio personal que funciona como una wiki de programación, donde recopilo anotaciones, conceptos clave y ejemplos práctivos sobre distintos lenguajes y tecnologías.
 
 ## 🚀 Objetivos
 
