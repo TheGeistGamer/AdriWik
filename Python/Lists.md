@@ -1,0 +1,274 @@
+# Lists
+
+**Lists** are used to store multiple items in a single variable.
+
+We can rewrite the above code to:
+
+```py
+hw_grades = [98, 87, 92, 96]
+quiz_grade = [9, 6, 8]
+```
+
+The syntax for a list looks like
+
+`list_name = [item1, item2, item3, item4]`
+
+list are created using square brackets `[` and `]`. And the items are separated by `,` commas.
+
+## Examples
+
+Data that could be stored in a list:
+
+- Temperatures in the past week
+- pH level of the office plant in the past hour.
+- "Now playing" in the movie theater nearby
+
+```py
+  temp = [86, 80, 82, 87, 79, 80, 82]
+  ph = [7.2, 7.1, 7.0, 7.0, 7.2, 7.1]
+  now_playing = ['Barbie', 'Opphenheimer', 'Talk to Me', 'Blue Beetle']
+```
+
+More facts about lists:
+
+- List items allow duplicate values.
+- Lists can have values with differents data types
+- There's no limit to how much data a list can hold
+
+## Index
+
+List items are changeable, meaning we can update individual items within a list.
+
+But before we do that, how can we access an individual item within a list? This is where index comes in
+
+An **index** is an item's position in a list.
+
+Python is 0-indexed, meaning that the indices starts at 0:
+
+```py
+  vowels = ['a', 'e', 'i', 'o', 'u']
+  # Index:   0    1    2    3    4
+```
+
+- The item at index 0 is `'a'`
+- The item at index 1 is `'e'`
+- The item at index 2 is `'i'`
+- the item at index 3 is `'0'`
+- The item at index 4 is `'u'`
+
+To output each of the items, we can use the `name[index]` syntax
+
+```py
+  print(vowels[0])  # Output: a
+  print(vowels[1])  # Output: e
+  print(vowels[2])  # Output: i
+  print(vowels[3])  # Output: o
+  print(vowels[4])  # Output: u
+```
+
+## Negative Index
+
+Another thing to note about index is that it can be postive or negative.
+
+If the index is negative, it starts form -1 (which is the last item of a list) and it goes backwards form there
+
+```py
+  vowels = ['a', 'e' 'i', 'o', 'u']
+  # Index: 0 1 2 3 4
+  # Index: -5 -4 -3 -2- 1
+```
+
+## Slicing
+
+Is there a way to get more that just one individual item?
+
+**Slicing** is where we can access certain parts of a sequence.
+
+Instead of accessing an item using a single index like `name[index]`, we can get multiple items by sepcifying where to start and where to en the range like `name[start: end]`
+
+```py
+  vowels = ['a', 'e', 'i', 'o', 'u']
+
+  print(vowels[0 : 3])
+  print(vowels[1 : 3])
+
+  # Output:
+  # ['a', 'e', 'i']
+  # ['e', 'i']
+```
+
+It starts from the `start` index (inclusive) and ends before the `end` index. So in the above example, `print(vowels[1 : 3])` only returned items at indeices 1 and 2, and didn`t include index 3
+
+## IndexError
+
+There is a common error in Python when dealing with sequences called the `IndexError`. This is what happends when the index is out of the range of a list.
+
+We try to do `vowels[5]`, we will get something like:
+
+```py
+  Traceback (most recent call last):
+    print(vowels[5])
+
+  # IndexError: list index out of range
+```
+
+## Buil-in Functions
+
+- `len()` function returns the total length of a list
+- `max()` function return the maximum value in a list
+- `min()` function return the minimun value in a list
+
+```py
+  stock1_prices = [2.52, 2.44, 2.32, 2.41, 2.51, 2.50, 2.44]
+  stock2_prices = [8.36, 8.31, 8.21, 8.21, 8.25, 8.11, 8.13
+
+  print(len(stock1_prices))    # Output: 7
+  print(max(strok1_prices))    # Output: 2.52
+  print(min(stock2_prices))    # Output: 8.11
+```
+
+We can find a list's lenght, minimum and maximum within a spli second, even if the list has 10000+ items
+
+## List Methods
+
+- `.append()` method adds an item to the end of the list
+- `.insert()` method adds an item to a specific index
+- `.remove()` method removes an item from a list based on the value
+- `.pop()` method removes the item at a particular index
+
+```py
+  dna = ['AUG', 'AUC', 'UCG']
+
+  dna.append('UAA')     # ['AUG', 'AUC', 'UCG', 'UAA']
+  dna.insert(2, 'GAU')  # ['AUG', 'AUC', 'GAU', 'UCG', 'UAA']
+  dna.remove('AUC')     # ['AUG', 'GAU', 'UCG', 'UAA']
+  dna.pop(0)            # ['GAU', 'UCG', 'UAA'
+```
+
+The difference between build-in functions and methods on a list is that methods on a list is that methods use the dot notations syntax on the list vaiable we create. Built-in functions can be called by themselves, but methods are always attached to a list vaiable from wich they are being called.
+
+| List Method | Description |
+|------------|------------|
+| `.append()` | Add an item to the end of the list |
+| `.clear()` | Remove all items from the list |
+| `.copy()` | Return a shallow copy of the list |
+| `.count()` | Return the number of times the value appears in the list |
+| `.extend()` | Appends another list to the current list by extending it |
+| `.index()` | Returns the index of a value inside the list |
+| `.insert()` | Insert an item at a specified position in the list |
+| `.pop()` | Remove an item from a specified position in the list |
+| `.remove()` | Remove an item from the list based on the value of the item |
+| `.reverse()` | Reverses the list in place |
+| `.sort()` | Sorts the list in place |
+
+## for-in
+
+There are multiple ways to iterate over a list in Python
+
+```py
+  snowfall = [0.3, 0.0, 0.0, 1.2, 3.9, 2.2, 0.8]
+
+  for i in snowfall:
+    print(i)
+```
+
+## for-in with range() and len()
+
+We can also loop throungh a list using the index (position). To do so, we nedd the `range()` function and the `lea()` function:
+
+As a reminder:
+
+- `range()` function returns a sequence of numbers, from 0 to a number
+- `len()`   function return the length of the list.
+
+```py
+  snowfall = [0.3, 0.0, 0.0, 1.2, 3.9, 2.2, 0.8]
+
+  for i in range(len(snowfall)):
+    print(snowfall[i])
+```
+
+The `i` here is an index. This is saying for every index from 0 to the length of `snowfall` minus  1 (7 - 1 = 6), print out the item at that index
+
+## Nested Lists
+
+Lista. are a super useful data strcture. They can hold multiple items that can be accessed via index and they can store a mix of data types.
+
+```py
+  list = ['a', 'b', 'c',  1, 2, 3]
+```
+
+Another benefit is that can nest other lists
+
+A **nested list* is alist of lists,
+
+```py
+  list = ['a', 'b', 'c', [1, 2 ,3]]
+```
+
+To access the value of a nested list, we use extra square brackets to slect for the list:
+
+```py
+  print(list[3][1])
+```
+
+First, we select the fourth index, which holds the nested list. Then, we add a second pair of brackets to select the second index of the nested list. Put it together
+
+Neste lists come up a bunch in data strctures & algorithms, interview questions, data science problems and even some edge cases. Supose some students are double majoring and retaking a test:
+
+```py
+  student1 = ['Jerry', ['CompSci', 'Math'], 2026]
+  student2 = ['Ellie', ['InfoSci', 'Game Design'], 2024]
+  student3 = ['Daniel', 'CompSci', 2028]
+
+  test_scores1 = [[760, 760, 780], 32]
+  test_scores2 = [745, 32]
+  test_scores3 = [720, [31, 33]]
+```
+
+## Matrix
+
+If we create a list of items, and every item is a nested list of the same size, we get what is called a **matrix** or **2D list**
+
+This is where nested lists become really handy:
+
+```py
+  matrix = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
+```
+
+This could als obe formatted as:
+
+```py
+matrix = [[1, 2, 3, 4],
+          [5, 6, 7, 8],
+          [9, 10, 11, 12]]
+
+```
+
+Imagine you are building a Tic-Tac-Toe game and you want to have a board layout
+
+```py
+  board = [
+    ['x', ' ', ' '],
+    [' ', 'x', ' '],
+    ['o', 'x', 'o']
+  ]
+```
+
+Each item in the `board` list is a list of three items. THis data is stored like how a table would organize its data into rows and columns. The inner list are the rows while their items are the columns:
+
+```py
+  board[0][0] board[0][1] board[0][2]
+  board[1][0] board[1][1] board[1][2]
+  board[2][0] board[2][1] board[2][2]
+```
+
+For example:
+
+```py
+  row = 2
+  column = 1
+  
+  print(board[row][column])
+  # Output: x
+```
