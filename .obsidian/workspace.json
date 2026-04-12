@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "32deb4509a61d3a6",
+        "id": "015952f4b92ed3e2",
         "type": "tabs",
         "children": [
           {
-            "id": "d7651a56b365fa5e",
+            "id": "92b123888b0af283",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/17. Emphasis.md",
+                "file": "python/14. Classes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "17. Emphasis"
+              "title": "14. Classes"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "markdown/17. Emphasis.md",
+                "file": "python/14. Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 17. Emphasis"
+              "title": "Enlaces entrantes de 14. Classes"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "markdown/17. Emphasis.md",
+                "file": "python/14. Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 17. Emphasis"
+              "title": "Enlaces salientes de 14. Classes"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "markdown/17. Emphasis.md",
+                "file": "python/14. Classes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 17. Emphasis"
+              "title": "Esquema de 14. Classes"
             }
           }
         ]
@@ -183,8 +183,11 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "d7651a56b365fa5e",
+  "active": "92b123888b0af283",
   "lastOpenFiles": [
+    "python/12.Lists.md",
+    "python/14. Classes.md",
+    "markdown/17. Emphasis.md",
     "Sin título.canvas",
     "2026-04-11.md",
     "2026-04-12.md",
@@ -196,7 +199,6 @@
     "python/9.Logical Operators.md",
     "python/10.Loop.md",
     "python/11. Nested Loops.md",
-    "python/12.Lists.md",
     "python/8.Imports.md",
     "python/7.Control Flow.md",
     "markdown/3.Notas.md",
@@ -205,7 +207,6 @@
     "markdown/references.md",
     "markdown/19.Images.md",
     "markdown/18.Code.md",
-    "markdown/17. Emphasis.md",
     "markdown/16.Span Elements.md",
     "markdown/15.Horizontal Rules.md",
     "markdown/14.Escaping for Special Characters.md",
