@@ -1,5 +1,3 @@
-# Example
-
 ## Food Rating
 
 In a five-star restaurant review system (⭐️⭐️⭐️⭐️⭐️), the star represent different levels of satisfaction. But what does each star rating actually mean?

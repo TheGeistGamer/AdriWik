@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "3e3fa4302ab2df45",
+    "type": "split",
+    "children": [
+      {
+        "id": "32deb4509a61d3a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7651a56b365fa5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown/17. Emphasis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "17. Emphasis"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8eba58394bcbd177",
+    "type": "split",
+    "children": [
+      {
+        "id": "91ab8d8c4f3f65be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc03db974abbbb50",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "5b279d4bcaea2d0c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "7898f02052f40419",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3c1df064c5bcffc6",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0269431fe84cd72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfce076246c44034",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "markdown/17. Emphasis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de 17. Emphasis"
+            }
+          },
+          {
+            "id": "b328bfaed4173b60",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "markdown/17. Emphasis.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de 17. Emphasis"
+            }
+          },
+          {
+            "id": "75da2c5c648bac47",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "34cda1d5750bd96c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "570f215ce19f6431",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "markdown/17. Emphasis.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de 17. Emphasis"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "d7651a56b365fa5e",
+  "lastOpenFiles": [
+    "Sin título.canvas",
+    "2026-04-11.md",
+    "2026-04-12.md",
+    "Sin título.base",
+    "Sin título 1.base",
+    "python/13. Functions.md",
+    "python/4.User-input.md",
+    "python/3.Operators.md",
+    "python/9.Logical Operators.md",
+    "python/10.Loop.md",
+    "python/11. Nested Loops.md",
+    "python/12.Lists.md",
+    "python/8.Imports.md",
+    "python/7.Control Flow.md",
+    "markdown/3.Notas.md",
+    "markdown/2.Websites.md",
+    "markdown/1.Intro.md",
+    "markdown/references.md",
+    "markdown/19.Images.md",
+    "markdown/18.Code.md",
+    "markdown/17. Emphasis.md",
+    "markdown/16.Span Elements.md",
+    "markdown/15.Horizontal Rules.md",
+    "markdown/14.Escaping for Special Characters.md",
+    "markdown/13.HTML en línea.md",
+    "markdown/12.Filosofía.md",
+    "markdown/11.Basic.md",
+    "python/Example.md"
+  ]
+}
