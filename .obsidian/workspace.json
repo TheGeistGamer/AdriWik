@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "88c42e39657b1a9d",
+        "id": "58d620c62710e863",
         "type": "tabs",
         "children": [
           {
-            "id": "c88436f4a5b04132",
+            "id": "07ecdd507f724f0e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "python/7.Control Flow.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "7.Control Flow"
+            }
+          },
+          {
+            "id": "0824454bb0d07811",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "python/20.Decorators & Generators.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20.Decorators & Generators"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3c1df064c5bcffc6",
@@ -177,36 +195,36 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "c88436f4a5b04132",
+  "active": "0824454bb0d07811",
   "lastOpenFiles": [
-    "python/16. Data Structures.md",
+    "python/19. CSV Files.md",
+    "python/20.Decorators & Generators.md",
+    "python/7.Control Flow.md",
+    "python/3.Operators.md",
+    "python/10.Loop.md",
+    "python/9.Logical Operators.md",
+    "python/8.Imports.md",
+    "python/6.Errors.md",
+    "python/5.Excersice: Currency.md",
+    "python/18.  Functional Programming.md",
+    "python/Example.md",
+    "python/2.Variables.md",
+    "python/4.User-input.md",
     "python/17. File input and output.md",
+    "python/16. Data Structures.md",
+    "python/12.Lists.md",
+    "python/11. Nested Loops.md",
+    "python/15. Modules.md",
+    "python/14. Classes.md",
+    "python/13. Functions.md",
     "readme.md",
     "python/1.Intro.md",
-    "python/9.Logical Operators.md",
-    "python/4.User-input.md",
-    "python/2.Variables.md",
-    "python/10.Loop.md",
-    "python/15. Modules.md",
-    "python/13. Functions.md",
-    "python/14. Classes.md",
-    "python/3.Operators.md",
-    "python/5.Excersice: Currency.md",
     "commandLine/docs/2.Filesystem.md",
     "commandLine/docs/3.File.md",
     "3..md",
     "commandLine/docs/1.Intro.md",
-    "python/8.Imports.md",
-    "python/12.Lists.md",
-    "markdown/17. Emphasis.md",
     "Sin título.canvas",
-    "2026-04-11.md",
-    "2026-04-12.md",
     "Sin título.base",
-    "Sin título 1.base",
-    "python/11. Nested Loops.md",
-    "python/7.Control Flow.md",
-    "markdown/3.Notas.md",
-    "markdown/2.Websites.md"
+    "Sin título 1.base"
   ]
 }
